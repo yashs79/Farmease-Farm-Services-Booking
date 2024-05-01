@@ -186,8 +186,9 @@ const IPhone11ProX = () => {
             source={require("../assets/image-18.png")}
           />
         </Pressable>
-        <LinearGradient
-          style={[
+        
+       <LinearGradient
+           style={[
             styles.frameLineargradient,
             styles.frameLineargradientPosition,
           ]}
@@ -255,72 +256,8 @@ const IPhone11ProX = () => {
           style={[styles.iphone11ProX1Child3, styles.frameIconLayout]}
           resizeMode="cover"
           source={require("../assets/frame-423.png")}
-        />
-        <LinearGradient
-          style={[
-            styles.iphone11ProX1Inner1,
-            styles.frameLineargradientPosition,
-          ]}
-          locations={[0.01, 1]}
-          colors={["#aedc81", "#6cc51d"]}
-          useAngle={true}
-          angle={90}
-        >
-          <View style={[styles.homeIconAndTextGroup, styles.homeIconPosition]}>
-            <Pressable style={styles.homeIconAndText}>
-              <Image
-                style={[styles.lomaboldhomeIcon1, styles.iconPosition]}
-                resizeMode="cover"
-                source={require("../assets/lomaboldhome.png")}
-              />
-              <Text style={[styles.home1, styles.homeTypo]}>Home</Text>
-            </Pressable>
-            <Pressable
-              style={[
-                styles.categoriesIconAndText1,
-                styles.categoriesIconLayout,
-              ]}
-              onPress={openCategoriesIconAndText1}
-            >
-              <Text style={[styles.categories2, styles.homeTypo]}>
-                Categories
-              </Text>
-              <Image
-                style={[
-                  styles.iconlycurvedcategory,
-                  styles.iconlytwoToneheartLayout,
-                ]}
-                resizeMode="cover"
-                source={require("../assets/iconlycurvedcategory.png")}
-              />
-            </Pressable>
-            <Pressable
-              style={[styles.favouriteIconAndText1, styles.favouriteIconLayout]}
-            >
-              <Text style={[styles.categories2, styles.homeTypo]}>
-                Favourite
-              </Text>
-              <Image
-                style={[
-                  styles.iconlytwoToneheart,
-                  styles.iconlytwoToneheartLayout,
-                ]}
-                resizeMode="cover"
-                source={require("../assets/iconlytwotoneheart.png")}
-              />
-            </Pressable>
-            <Pressable style={[styles.groupContainer, styles.groupLayout]}>
-              <View style={[styles.componentChild, styles.componentPosition]}>
-                <Image
-                  style={[styles.cartIcon1, styles.iconPosition]}
-                  resizeMode="cover"
-                  source={require("../assets/cart.png")}
-                />
-                <Text style={[styles.home1, styles.homeTypo]}>Cart</Text>
-              </View>
-            </Pressable>
-          </View>
-        </LinearGradient>
+          
+        /> 
       </View>
 
       <Modal

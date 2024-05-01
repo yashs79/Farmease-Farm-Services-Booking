@@ -43,7 +43,7 @@ const FrameComponent1 = () => {
       <Image
         style={styles.antDesignheartFilledIcon}
         resizeMode="cover"
-        source={require("../assets/antdesignheartfilled2.png")}
+        source={require("../assets/antdesignheartfilled.png")}
       />
     </View>
   );
